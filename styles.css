@@ -8,4 +8,34 @@ body {
 
 .koala {
     position: relative;
+    width: 300px;
+    height: 300px;
+}
+.ear.left-ear {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #A6BECF;
+    border:2px solid black;
+}
+
+.ear.-rigth-ear {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #A6BECF;
+    border:2px solid black;
+    left: 100%;
+}
+
+
+.head {
+    background-color: #A6BECF;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border:2px solid black; 
+    z-index:1;
 }
