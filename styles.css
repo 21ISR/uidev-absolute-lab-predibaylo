@@ -51,7 +51,7 @@ body {
     background-color: white;
     border:2px solid black;
     border-radius: 100%;
-    top: 40%;
+    top: 32%;
     left: 25%;
 }
 
@@ -62,7 +62,7 @@ body {
     background-color: white;
     border:2px solid black;
     border-radius: 100%;
-    top: 14%;
+    top: 6%;
     left: 45%;
 }
 
@@ -83,7 +83,7 @@ body {
     height: 45px;
     width: 35px;
     left: 41%;
-    bottom: 23%;
+    bottom: 32%;
 }
 
 .mouth {
@@ -93,7 +93,7 @@ body {
     height: 25px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    left: 39%;
-    top: 77%;
+    left: 38%;
+    top: 67%;
 
 }
