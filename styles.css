@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.koala {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.ear.left-ear {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #A6BECF;
+    border:2px solid black;
+    right: 62.5%;
+    bottom: 62.5%;
+}
+            /* XD */
+.ear.right-ear {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #A6BECF;
+    border:2px solid black;
+    left: 62.5%;
+    bottom:62.5%;
+}
+
+
+.head {
+    position: absolute;
+    background-color: #A6BECF;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border:2px solid black; 
+    z-index:2;
+}
+
+.eye.left-eye {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 100%;
+    top: 32%;
+    left: 25%;
+}
+
+.eye.right-eye {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 100%;
+    top: 6%;
+    left: 45%;
+}
+
+.pupil {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 100%;
+    top: 35%;
+    left: 35%;
+}
+
+.nose {
+    position: absolute;
+    background-color: black;
+    border-radius: 75%;
+    height: 45px;
+    width: 35px;
+    left: 41%;
+    bottom: 32%;
+}
+
+.mouth {
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 25px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    left: 38%;
+    top: 67%;
+
+}
